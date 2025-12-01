@@ -18,7 +18,7 @@ A user-friendly web application designed to manage residential apartment operati
 
 🛠 Tech Stack
 
-Frontend: HTML, CSS, JavaScript (or React/Vue)
+Frontend: HTML, CSS, JavaScript
 
 Backend: Flask
 
