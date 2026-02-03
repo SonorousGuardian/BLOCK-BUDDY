@@ -22,7 +22,7 @@ Frontend: HTML, CSS, JavaScript
 
 Backend: Flask
 
-Database: MySQL
+Database: sqlite
 
 Authentication: session-based login
 
