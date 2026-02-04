@@ -6,7 +6,7 @@ from wtforms.validators import DataRequired, Length, Email, EqualTo
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///project1.db'
-app.config['SECRET_KEY'] = 'bb9538ba3b3963bf447fa53ebd5d7fc6'
+app.config['SECRET_KEY'] = '################################'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
@@ -159,3 +159,4 @@ def user_list():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
